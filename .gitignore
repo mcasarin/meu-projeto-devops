@@ -1,0 +1,4 @@
+# arquivos não versionados
+*.log
+relatorio.txt
+app/index.html
