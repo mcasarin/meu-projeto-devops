@@ -23,5 +23,6 @@ fi
 # Memória
 echo "[OK] Memoria disponivel: $(free -h | grep Mem | awk '{print $7}') MB"
 echo "Processos ativos: $(ps aux | wc -l)"
+echo "[OK] Tempo ligado: $(uptime -p)"
 echo "==== Fim do health check - $(date '+%d/%m/%Y %H:%M') ===="
 echo "==== # Pronto para iniciar [PIPELINE] # ===="
