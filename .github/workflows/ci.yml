@@ -5,14 +5,14 @@ on:
     branches: [main]
   pull_request:
 
-  jobs:
-    build-e-teste:
-      run-on: ubuntu-latest
-      step:
-        - uses: actions/checkout@v4
+jobs:
+  build-e-teste:
+    run-on: ubuntu-latest
+    step:
+      - uses: actions/checkout@v4
 
-        - name: Build
-          run: ./scripts/build.sh
+      - name: Build
+        run: ./scripts/build.sh
 
-        - name: Teste
-          run: ./scripts/test.sh
+      - name: Teste
+        run: ./scripts/test.sh
