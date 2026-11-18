@@ -1,4 +1,4 @@
-i# Meu Projeto DevOps
+# Meu Projeto DevOps
 
 Projeto construído no Bootcamp DevOps Matera 2026.
 
